@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 5000px;
+    border: 5px solid red;
+    margin: 0 auto; 
+    padding: 20px;
+
+}
+img {
+    width: 100px;
+}
+.nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width: 100%;
+}
+
+.nav-title {
+    display:flex;
+    align-items:center;
+}
+.nav-links {
+    width: 25%;
+}
+.nav-links ul {
+    display: flex;
+    justify-content: space-around;
+}
+.main {
+    border: 2px solid rebeccapurple;
+    padding: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+.left, .right {
+    border: 2px solid green;
+    text-align: center;
+}
+.left {
+    width: 600px;
+    height: 400px;
+}
+.right {
+    width: 300px;
+}

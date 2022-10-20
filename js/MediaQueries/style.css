@@ -1,0 +1,23 @@
+.buttons {
+    width: 200px;
+    height: 150px;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .buttons {
+        background-color: yellow;
+    }
+} 
+
+@media only screen and (max-width: 481px) {
+    .buttons {
+        background-color: blue;
+        
+    }
+} 
+@media only screen and (max-width: 1024px) {
+    .buttons {
+        background-color: red;
+    }
+} 

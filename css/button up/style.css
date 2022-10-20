@@ -1,0 +1,39 @@
+#Search-Button {
+    color:rgba(16, 156, 142, 0.877);
+    background-color: rgba(189, 243, 238, 0.87);
+    margin-top:50px;
+    width: 150px;
+    height: 30px;
+    border-radius: 120px;
+    border-right: 2px solid rgba(16, 156, 142, 0.877);
+    border-left: 2px solid rgba(16, 156, 142, 0.877);
+    border-bottom: 2px solid rgba(16, 156, 142, 0.877);
+    border-top: 2px solid rgba(16, 156, 142, 0.877);
+    font-family: monospace; 
+    font-size:large;
+}
+#add {
+    color:white;
+    background-color: rgb(115, 236, 141);
+    border-radius: 100px;
+    border-right: 5px rgb(115, 236, 141);
+    border-left: 5px rgb(115, 236, 141);
+    border-bottom: 5px rgb(115, 236, 141);
+    border-top: 5px rgb(115, 236, 141);;
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    font-size:x-large;
+}
+#create {
+    color: white;
+    background-color: blue;
+    width: 150px;
+    height: 45px;
+    box-shadow: 5px 5px 2px 1px grey;
+    font-family: Sans-serif;
+    font-size: 15px;
+}
+* {
+    margin-left:20px;
+}

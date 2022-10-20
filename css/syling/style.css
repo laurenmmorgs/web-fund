@@ -1,0 +1,26 @@
+#cloud-text {
+   color: aqua;
+}
+#my-text {
+   color:white;
+}
+.MyCloud {
+   font-family: 'Courier New', Courier, monospace;
+   background-color: black;
+   font-size: x-large;
+
+}
+.Computer-Projects {
+   background-color: plum;
+   text-align: center;
+   font-family: serif;
+   font-size: x-large;
+   font-style: italic;
+   color:white;
+}
+.Contact-Us {
+   background-color: lightblue;
+   text-align: right;
+   text-decoration: underline;
+   font-size:x-large;
+}

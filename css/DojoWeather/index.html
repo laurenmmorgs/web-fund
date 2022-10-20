@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojoj Weather </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1> Dojo Weather</h1>
+        <h2 onclick="showAlert()"> Burbank </h2>
+        <h2> Chicago </h2>
+        <h2> Dallas </h2>
+    </div>
+    <div class="container">
+            <div class="citybar">
+                <h1> San Jose </h1>
+                <h2> show temperature in 
+                    <select id="degrees" onchange="temperatureChange(this)">
+                        <option class="celcius"> C</option>
+                        <option class="farenheight"> F </option>
+                    </select>
+                </h2>
+            </div>
+            <div class="weathercards">
+                <div class="card1">
+                    <h1> Today </h1>
+                    <img src="some_rain.png" alt="some_rain" class="weathericons">
+                    <p> some rain </p>
+                    <div class="bottom">
+                        <p class="farenheight"> 24 </p>
+                        <p class="celcius"> 21 </p>
+                    </div>
+                </div>
+                <div class="card2">
+                    <h1> Tomorrow </h1>
+                    <img src="some_sun.png" alt="sunny" class="weathericons">
+                    <p> some sun </p>
+                <div class="bottom">
+                    <p class="farenheight"> 27 </p>
+                    <p class="celcius"> 19 </p>
+                </div>
+                </div>
+                <div class="card3">
+                    <h1> Friday </h1>
+                    <img src="some_clouds.png" alt="cloudy" class="weathericons">
+                    <p> some clouds </p>
+                    <div class="bottom">
+                        <p class="farenheight"> 21 </p>
+                        <p class="celcius"> 16 </p>
+                    </div>
+                </div>
+                <div class="card4">
+                    <h1> Saturday </h1>
+                    <img src="some_sun.png" alt="sunny" class="weathericons">
+                    <p> some sun</p>
+                    <div class="bottom">
+                        <p class="farenheight"> 26 </p>
+                        <p class="celcius"> 21 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="cookiebar" onclick="Iaccept(this)">
+                <img src="cookie.png" alt="cookienav" class="cookies">
+                <div class="cookietime">
+                    <h1> STOP! Cookie Time </h1>
+                    <p id="cookiedescript"> We use cookies (sadly not edible ones) to personalize content and ads, to provide social media features and to analys our traffic <a href=""> Read more...</a>   </p> 
+                    <button class="accept"> I Accept </button>
+                </div>
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

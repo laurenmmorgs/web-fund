@@ -1,0 +1,51 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+    font-family: monospace
+	}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 5px solid grey;
+}
+.userid {
+    width: 100px;
+    margin-top:-50px;
+}
+
+.top-bar {
+    background-color:#17a2b8 ;
+    height:100px;
+    width:800;
+}
+.bottom-bar {
+    margin-left: 20px;
+    background-color:white;
+    width: 800px;
+    height: 300px;
+}
+.markers {
+    display: flex;
+    gap: 20px;
+    height: 50px;
+    width: 600px;
+}
+.Job-title p {
+
+    font-family: monospace;
+    font-size: 20px;
+    inline-size: 450px; 
+}
+.gear{
+    display:flex;
+    gap:10px;
+    margin-top: 20px;
+}
+.gearpic {
+    width: 20px;
+    height: 20px;
+}
+

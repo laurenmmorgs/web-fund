@@ -1,0 +1,11 @@
+.nav-bar {
+    box-sizing: border-box;
+    text-align: center;
+    font-size: x-large;
+}
+.top-bar {
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    display:flex;
+}
