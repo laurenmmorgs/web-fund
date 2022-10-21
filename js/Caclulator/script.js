@@ -32,13 +32,28 @@ console.log("we are working");
 
 
 var displayDiv = document.querySelector('#display');
-var operatorPressed = document.querySelector(".operator");
 var equals = document.querySelector('#equals');
-var clear = document.querySelector('#clear');
 var pressedNum = document.querySelector(".btn-calc").value;
+var total = 0; 
 
 function press(element) {
     var pressedNum = document.querySelector(".btn-calc").value += element;
     displayDiv.innerHTML = pressedNum;
     console.log(pressedNum);
+    
+}        
+
+function calculate() {
+    let x = displayDiv.innerHTML;
+    let y = eval(x);
+    document.querySelector('#display').value = y;
+    console.log(y);
+    displayDiv.innerHTML = y;
+}    
+
+function clr() {
+    let pressedNum = displayDiv.innerHTML;
+    let clear = pressedNum;
+    console.log(clear);
+    displayDiv.innerHTML = " ";
 }
